@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.leandro.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_item1"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_item2"
+        android:orderInCategory="100"
+        android:title="Email"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_item3"
+        android:orderInCategory="100"
+        android:title="Sair"
+        app:showAsAction="always"
+        android:icon="@android:drawable/btn_star_big_on"
+        />
+</menu>
